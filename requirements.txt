@@ -1,0 +1,43 @@
+ # UI
+streamlit
+
+# Orchestration
+langgraph
+langchain-core
+langchain-openai
+
+# Vector DB and embeddings
+pinecone
+
+# Reranking (local, no API key)
+flashrank
+
+# Guardrails
+nemoguardrails
+
+# Observability
+logfire
+
+# Gateway and config
+openai
+pydantic
+pydantic-settings
+python-dotenv
+
+# Document loaders
+pypdf
+python-docx
+openpyxl
+pandas
+
+# Testing
+pytest
+
+# API
+fastapi
+uvicorn
+
+streamlit>=1.42
+Authlib>=1.3.2
+
+streamlit[auth]

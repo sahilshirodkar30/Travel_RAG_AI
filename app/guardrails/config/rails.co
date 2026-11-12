@@ -1,0 +1,8 @@
+define flow block injection
+  $is_attack = execute injection_check(text=$user_message)
+  if $is_attack
+    bot refuse out of scope
+    stop
+
+define bot refuse out of scope
+  "Sorry, I can only help with questions about travel in Goa."
